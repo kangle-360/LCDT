@@ -29,7 +29,7 @@ if __name__=='__main__':
         choose=int(input('Please input your choose:'))
         if choose == 1:
             print '**********SET*********'
-            key=raw_input("Please input the key：")
+            key=raw_input("Please input the key:")
             value=raw_input("Please input the value:")
             sent(key,value)
             print '**********************'
